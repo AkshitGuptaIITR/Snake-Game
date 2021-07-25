@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qahiri&family=Zen+Loop&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake-Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="buttonGrp">
+            <div class="text">
+                Choose Difficulty:
+            </div>
+            <button id="Easy" onclick={easy()}>
+                Easy
+            </button>
+            <button id="Medium" onclick={medium()}>
+                Medium
+            </button>
+            <button id="Hard" onclick={hard()}>
+                Hard
+            </button>
+        </div>
+        <div id="scoreBox"> Score : 0 </div>
+        <div id="highScoreBox"> High-Score : 0 </div>
+        <div id="board"></div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>

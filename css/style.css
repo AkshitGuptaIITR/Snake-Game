@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Otomanopee+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background: linear-gradient(to right, rgb(22, 41, 104), rgb(85, 218, 206));
+    min-height: 100vh;
+    background-size: 105vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox {
+    position: absolute;
+    top: 9px;
+    font-family: Zen Loop;
+    right: 150px;
+    font-size: 39px;
+    font-weight: bold;
+    color: rgb(27, 24, 24);
+}
+
+#highScoreBox {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-family: Zen Loop;
+    font-size: 39px;
+    font-weight: bold;
+    color: rgb(27, 24, 24);
+}
+
+#board {
+    background: linear-gradient( rgb(156, 228, 156), rgb(250, 250, 205));
+    width: 90vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    border-radius: 6px;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+    background: linear-gradient(rgb(93, 233, 156), rgb(93, 233, 156));
+    border: 2px solid rgb(51, 0, 51);
+    transform: scale(1.02);
+    border-radius: 4px;
+}
+
+.snake {
+    background-color: rgb(0, 87, 128);
+    border: 2px 0px 0px 0px solid black;
+}
+
+.food {
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border-radius: 80px;
+}
+
+.buttonGrp {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.text {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #dad9df;
+}
+
+#Easy {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: crimson;
+    padding: 6px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 6px;
+    transition: ease-in 200ms;
+}
+
+#Easy:hover {
+    background-color: rgb(175, 8, 8);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#Medium {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: blue;
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    transition: ease-in 200ms;
+    border-radius: 6px;
+}
+
+#Medium:hover {
+    background-color: rgb(11, 11, 119);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#Hard:focus, #Easy:focus, #Medium:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#Hard {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: coral;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    transition: ease-in 200ms;
+}
+
+#Hard:hover {
+    background-color: chocolate;
+    cursor: pointer;
+    transform: scale(1.1);
+}
