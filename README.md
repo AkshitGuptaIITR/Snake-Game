@@ -6,4 +6,5 @@ Core JavaScript- Traditional snake game project.
 
 # Details
 You can try and play this game on- https://akshitguptaiitr.github.io/Snake-Game/
+<br/>
 Note- It's recommended that you better use your laptop or pc to play this game.
