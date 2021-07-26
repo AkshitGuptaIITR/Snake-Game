@@ -1,5 +1,9 @@
 # Snake-Game
-This is the my first core JS project where I have created a traditional snake game. 
+Core JavaScript- Traditional snake game project. 
 
+# First Look 
+![The game looks](https://user-images.githubusercontent.com/82716014/126960983-0c1530f1-be7b-4906-befd-bbc8eece85a6.png)
+
+# Details
 You can try and play this game on- https://akshitguptaiitr.github.io/Snake-Game/
 Note- It's recommended that you better use your laptop or pc to play this game.
